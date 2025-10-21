@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: rgb(237, 133, 133);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex-wrapper {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 700px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    width: 48%; 
+    height: 140px;
+    box-sizing: border-box;
+}
+
+.flex-container-1 {
+  background: #ffbf46;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+
+}
+
+.flex-container-2 {
+    background-color: #83b984;
+    justify-content: center;
+    align-items: stretch;
+  gap: 10px;
+
+}
+
+.flex-container-3 {
+    background-color: #567676;
+    align-items: center;
+    justify-content: flex-end;
+  gap: 10px;
+
+}
+
+.flex-container-4 {
+    background-color: #4d5056;
+    justify-content: space-between;
+}
+
+.flex-container-4 .flex-item:last-child {
+    align-self: flex-end;
+}
+
+.flex-container-5 {
+    background-color: #d5ead2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container-5 .flex-item:nth-child(1),
+.flex-container-5 .flex-item:nth-child(3) {
+    height: 100px;
+}
+
+.flex-container-5 .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.flex-container-6 {
+    background-color: #678f91;
+    justify-content: center;
+    align-items: center;
+  gap: 10px;
+
+}
+
+.flex-container-6 .flex-item:nth-child(2) {
+    width: 200px;
+}
+
+.flex-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50px;
+min-height: 50px; 
+    height: auto;
+        border-radius: 5px;
+}
+
+.flex-container-5 .flex-item {
+    background-color: #f6b444;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.flex-wrapper2 {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 700px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    width: 48%; 
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.flex-container-7 {
+    background-color: turquoise;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    
+}
+.flex-container-7 .flex-item{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+
+.flex-container-8 {
+    background: yellow;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: flex-start; 
+    gap: 10px;
+    align-content: flex-end;
+    
+}
+
+.flex-container-8 .flex-item{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+
+.flex-container-9 {
+    background: orange;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.flex-container-9 .flex-item{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+
+.flex-container-10{
+    background: orange;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.flex-container-10 .flex-item{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+
+.flex-container-11{
+    background: orange;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.flex-container-11 .flex-item{
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
